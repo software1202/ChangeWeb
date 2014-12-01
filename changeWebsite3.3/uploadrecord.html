@@ -1,8 +1,9 @@
+
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>想换我的</title>
+    <title>上传记录</title>
     <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/style.css"/>
@@ -15,11 +16,11 @@
 </head>
 <body>
 	<!--n-->
-   <header class="mt-header">
+    <header class="mt-header">
     <article>
-       <!---- <div class="mt-logo">    
-            <a title="换享网" href="" class="mt-tblogo" ></a>
-        </div>      --->
+        <div class="mt-logo">
+            <a title="换享网" href=""  ></a>
+        </div>
         <nav class="mt-nav">
             <ul id="J_MtMainNav">
                 <li>
@@ -27,7 +28,7 @@
                     <i class="mt-arrow"></i>
                 </li>
                 <li class="selected">
-                    <a href=""  target="_blank">个人空间</a>
+                    <a href=""  target="_blank">个人主页</a>
                     <i class="mt-arrow"></i>
                 </li> 
 				<li>
@@ -79,137 +80,147 @@
 		<form action="" method="post" id="J_BoughtListForm" autocomplete="off">
 			<input id="J_Token" type="hidden" name="_tb_token_" value="fe5fff387e47e">
 			<input id="J_MainBizIds" type="hidden" name="main_biz_order_ids" value="830615123442932">
-			<input id="J_buddy_require_url" type="hidden" value="http://tbskip.taobao.com/json/show_buddy_biz_order.do">
-			<input id="J_buddy_result_link" type="hidden" value="http://follow.taobao.com/buddy_detail.htm">
-			<input id="J_activity_require_url" type="hidden" value="http://active.taobao.com/json/bought_icon.htm">
+
 
 			<table class="bought-table" id="J_BoughtTable" data-spm="9">
 				<colgroup>
-					<col class="baobei">
-					<col class="price">
-					<col class="quantity">
-					<col class="item-operate">
-					<col class="amount">
-					<col class="trade-status">
-					<col class="trade-operate">
+					<col class="number">
+					<col class="thing">
+					<col class="name">
+					<col class="time">
+					<col class="state">
+					
 				</colgroup>
-				<tr><font size=5><b>想换我的</b></font></tr>
+				<tr><font size=5><b>上传记录</b></font></tr>
 				<thead>
 					<tr class="col-name">
-						<th class="baobei">宝贝</th>
-						<th class="price">换客ID</th>
-						<th class="quantity">数量</th>
-						<th class="item-operate">商品操作</th>
-						<th class="amount">时间</th>
-						<th class="trade-status">
-							<div class="trade-status">
-								<div id="ks-component1860" class="bf-select bf-menu-button bf-button" tabindex="0" role="button" title="" aria-describedby="" aria-expanded="false" aria-haspopup="true" style="width: 86px; height: 15px; -webkit-user-select: none;">
-									<div id="ks-content-ks-component1860" class="bf-select-content bf-menu-button-content bf-button-content" style="-webkit-user-select: none;">
-										交易状态
-									</div>
-									<div class="bf-select-dropdown bf-menu-button-dropdown bf-button-dropdown">
-										<div class="bf-select-dropdown-inner bf-menu-button-dropdown-inner bf-button-dropdown-inner">
-										</div>
-									</div>
-								</div>
-							</div>
-						</th>
-						<th class="trade-operate">交易操作</th>
-					</tr>
-		
-					<tr class="sep-row"><td colspan="9"></td></tr>	
-				
+						<th class="number">序号</th>
+						<th class="thing">上传物品</th>
+						<th class="name">物品名称</th>
+						<th class="time">上传时间</th>
+						<th class="operate">操作</th>
+
 				</thead>
 
 
 				<tbody data-isarchive="false" data-orderid="830615123442932" data-status="TRADE_FINISHED" class="mainOrder830615123442932  success-order hover hover-finish-order">
-					<tr class="sep-row"><td colspan="7"></td></tr>
-					<tr class="order-hd">
-						<td class="first">
-							<div class="summary">
-							    <span>
-									<input type="checkbox" class="J_Selector selector" id="cb830615123442932" name="biz_order_id" value="830615123442932">
-								</span>
-								<span class="number last-item">交换编号：<em>830615123442932</em></span>
-							</div>
-						</td>
-						<td class="column" colspan="2">
-							<span class="g-u">	
-							</span>
-							<a target="_blank" class="shopname J_MakePoint" title="东方" ><b>换客姓名：</b>东方</a>
-						</td>
-						<td class="column">
-							<span class="ww-light ww-large" data-nick="东方" data-tnick="东方" data-display="inline" data-item="$bizOrder.itemID:830615123442932" data-point-url="http://gm.mmstat.com/listbought.1.13"><a href="" target="_blank" class="ww-inline ww-online" title="点此可以直接和卖家交流选好的宝贝，或相互交流网购体验，还支持语音视频噢。"></a></span>
-						</td>
-						<td class="last" colspan="3">
-							
-						</td>
-					</tr>
-   
+					
+					
    
 					<tr id="item830615123442932" class="order-bd last     order-last">
-						<td class="baobei">
-							<a target="_blank" hidefocus="true" title="查看宝贝详情" href="" class="pic J_MakePoint" data-point-url="http://gm.mmstat.com/listbought.2.5">
-								<img alt="查看宝贝详情" src="img/hand.jpg">
-							</a>
+						<td class="number">
+							<input type="checkbox" class="J_Selector selector" id="cb830615123442932" name="biz_order_id"><b>1</b>
 							<div class="desc">
 								<p class="baobei-name">
-									<a target="_blank" href="" class="J_MakePoint" data-point-url="http://gm.mmstat.com/listbought.2.6">
-										韩版气质手提包
-									</a>
+								
 								</p>
 								
 							</div>  
 						</td>
 
-						<td class="price" title="98.39">
-							<i class="special-num">201222223</i>
+						<td class="thing" title="98.39">
+							<i class="special-num"></i>
+							<b><img alt="查看宝贝详情" src="img/hand.jpg"></b>
 						</td>
    
-						<td class="quantity" title="1">
-							<i class="special-num">1</i>
+						<td class="name" title="韩版气质手提包">
+						<b>韩版气质手提包</b>
+							<i class="name"></i>
 						</td>
  
-						<td class="item-operate">  
-							<a href="javascript:void(0)" class="tousu-weiquan J_MakePoint J_HasBuy J_ApplyRepayTrigger" title="" target="_blank" url="http://support.taobao.com/myservice/rules/rules_redirect.jhtml?trade_id=830615123442932" data-point-url="http://gm.mmstat.com/listbought.1.12">投诉买家</a>
-							<a href="javascript:void(0)" class="tousu-weiquan J_MakePoint J_HasBuy J_ApplyRepayTrigger" title="" target="_blank" url="http://support.taobao.com/myservice/rules/rules_redirect.jhtml?trade_id=830615123442932" data-point-url="http://gm.mmstat.com/listbought.1.12">查看对方物品</a>
+						<td class="time">  
+							<b>2014-10-01</br>15:25:32</b>
 							<input type="hidden" id="pioneerRulesType" value="">
 						</td>
 
-						<td class="amount" rowspan="1">
-								<span class="dealtime" title="2014-10-16 12:10">2014-10-16</span>
+						<td class=operate" rowspan="1">
+								<p><b><a href>查看</a>|<a href>修改</a></br><a href>下架</a>|<a href>删除</a></b></p>
 						</td>
  
-						<td class="trade-status" rowspan="1">
-							<a href="" target="_blank" data-point-url="http://gm.mmstat.com/listbought.2.11" class="J_MakePoint status">
-								等待确认
-							</a>
-							<span>
-								<a href="" target="_blank" class="detail-link J_MakePoint" data-point-url="http://gm.mmstat.com/listbought.1.29">
-									交换详情
-								</a>
-							</span>
+
+						
+					</tr>
+					
+					
+					<tr id="item830615123442932" class="order-bd last     order-last">
+						<td class="number">
+							<input type="checkbox" class="J_Selector selector" id="cb830615123442932" name="biz_order_id" ><b>2</b>
+							<div class="desc">
+								<p class="baobei-name">
+								
+								</p>
+								
+							</div>  
+						</td>
+
+						<td class="thing" title="98.39">
+							<i class="special-num"></i>
+							<b><img alt="查看宝贝详情" src="img/hand.jpg"></b>
+						</td>
+   
+						<td class="name" title="韩版气质手提包">
+						<b>韩版气质手提包</b>
+							<i class="name"></i>
 						</td>
  
-						<td class="trade-operate" rowspan=" 1 ">
-							<span class="skin-white">
-								<a href="" target="_blank" class="J_Rate J_MakePoint tm-btn tm-skin-white" data-point-url="http://gm.mmstat.com/listbought.1.5">评价</a>
-							</span>
-							<a href="" class="J_Rebuy" data-url="/trade/json/getLastBoughtVirItemInfo.htm?itemid=15503664042&amp;time=1413433145000">再次交易</a>
+						<td class="time">  
+							<b>2014-10-01</br>18:30:06</b>
+							<input type="hidden" id="pioneerRulesType" value="">
 						</td>
+
+						<td class=operate" rowspan="1">
+								<p><b><a href>查看</a>|<a href>修改</a></br><a href>下架</a>|<a href>删除</a></b></p>
+						</td>
+ 
+
+						
+					</tr>
+					
+					<tr id="item830615123442932" class="order-bd last     order-last">
+						<td class="number">
+							<input type="checkbox" class="J_Selector selector" id="cb830615123442932" name="biz_order_id" ><b>3</b>
+							<div class="desc">
+								<p class="baobei-name">
+								
+								</p>
+								
+							</div>  
+						</td>
+
+						<td class="thing" title="98.39">
+							<i class="special-num"></i>
+							<b><img alt="查看宝贝详情" src="img/hand.jpg"></b>
+						</td>
+   
+						<td class="name" title="韩版气质手提包">
+						<b>韩版气质手提包</b>
+							<i class="name"></i>
+						</td>
+ 
+						<td class="time">  
+							<b>2014-10-01</br>20:08:12</b>
+							<input type="hidden" id="pioneerRulesType" value="">
+						</td>
+
+						<td class=operate" rowspan="1">
+								<p><b><a href>查看</a>|<a href>修改</a></br><a href>下架</a>|<a href>删除</a></b></p>
+						</td>
+ 
+
+						
 					</tr>
 				</tbody>      
      
 	 
 				<tfoot>
-					<tr class="sep-row"><td colspan="7"></td></tr>
+					<tr class="sep-row"><td colspan="5"></td></tr>
 					<tr class="toolbar toolbar-bottom">
-						<td colspan="7">
+						<td colspan="5">
 							<div class="operates">
 								<label><input type="checkbox" class="J_AllSelector all-selector">全选</label>
-								<a href="javascript:void(0)" class="J_CombinPay J_MakePoint toolbtn" data-url="http://trade.taobao.com/trade/alipay_list_screen.htm" data-confirm-url="/trade/json/list_items_for_batch_pay.htm" data-point-url="http://gm.mmstat.com/listbought.1.8">联系换家</a>
-								<a href="javascript:void(0)" class="J_CombinAgentPay J_MakePoint toolbtn" data-url="http://trade.taobao.com/trade/alipay_list_screen.htm?ispayforanother=true" data-confirm-url="/trade/json/list_items_for_batch_pay.htm" data-point-url="http://gm.mmstat.com/listbought.32">拒绝交换</a>
-								<a href="javascript:void(0)" class="J_CombinAgentPay J_MakePoint toolbtn" data-url="http://trade.taobao.com/trade/alipay_list_screen.htm?ispayforanother=true" data-confirm-url="/trade/json/list_items_for_batch_pay.htm" data-point-url="http://gm.mmstat.com/listbought.32">同意交换</a>
+								
+								<a href="javascript:void(0)" class="J_CombinAgentPay J_MakePoint toolbtn" data-url="http://trade.taobao.com/trade/alipay_list_screen.htm?ispayforanother=true" data-confirm-url="/trade/json/list_items_for_batch_pay.htm" data-point-url="http://gm.mmstat.com/listbought.32">下架</a>
+								<a href="javascript:void(0)" class="J_CombinAgentPay J_MakePoint toolbtn" data-url="http://trade.taobao.com/trade/alipay_list_screen.htm?ispayforanother=true" data-confirm-url="/trade/json/list_items_for_batch_pay.htm" data-point-url="http://gm.mmstat.com/listbought.32">删除</a>
 							</div>
 							<div class="paging-box paging-full" id="J_trade_pagenation">
 								<ul class="items">
@@ -222,7 +233,7 @@
 										1
 									</li>
 									<li class="item next  next-disabled ">
-										<font color="blue">2</font>
+										
 										<a class="num ">
 											<span class="icon"></span>
 										</a>
@@ -231,7 +242,7 @@
 
 
 								<div class="total">
-									共 2 页，
+									共 1 页，
 								</div>
 								<div class="form">
 									<span class="text">到第</span>
@@ -240,6 +251,7 @@
 									<span class="button J_MakePoint" id="J_JumpTo" data-url="http://trade.taobao.com/trade/itemlist/listBoughtItems.htm?action=itemlist/QueryAction&amp;event_submit_do_query=1&amp;prePageNo=1&amp;commentStatus=I_HAS_NOT_COMMENT&amp;auctionStatus=ALL&amp;clickMore=0&amp;tPage=1&amp;isJumpTo=true" data-point-url="http://gm.mmstat.com/listbought.31">确定</span>
 								</div>
 							</div>
+
 						</td>
 					</tr>
 				</tfoot>
@@ -274,7 +286,7 @@
 									</dd>
 									<dt class="fs14 mt-btn-go-setings" id="MTB_ItemsSetings">我的关注<span class="mt-menu-right-arr"><em></em></span></dt>
 									<dd class="mt-menu-sub unfold fold J_MtSideTree">
-										<a href="attentionthing.html" >关注物品</a>
+										<a href="attentionthing.html">关注物品</a>
 									</dd>
 									<dd class="mt-menu-sub J_MtSideTree fold">
 										<a href=""  >关注用户</a>
@@ -298,7 +310,7 @@
 										<a href="renzheng.html">信息认证</a>
 									</dd>
 									<dd class="mt-menu-sub unfold fold J_MtSideTree">
-										<a href=""  >积分历史</a>
+										<a href="grademx.html">积分历史</a>
 									</dd>
 									<dd class="mt-menu-sub unfold fold J_MtSideTree">
 										<a href=""  >修改收货地址</a>
@@ -310,13 +322,13 @@
 										<a href=""  >留言信息</a>
 									</dd>
 									<dd class="mt-menu-sub unfold fold J_MtSideTree">
-										<a href=""  >站内消息</a>
+										<a href="webimformation.html">站内消息</a>
 									</dd>
 									<dd class="mt-menu-sub unfold fold J_MtSideTree">
-										<a href=""  >交换记录</a>
+										<a href="exchange records.html">交换记录</a>
 									</dd>
 									<dd class="mt-menu-sub unfold fold J_MtSideTree">
-										<a href=""  >投诉</a>
+										<a href="complain.html">投诉</a>
 									</dd>
 							</dl>
 						</div>

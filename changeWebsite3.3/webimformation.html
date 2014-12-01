@@ -1,14 +1,14 @@
-
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>上传记录</title>
+    <title>换享网</title>
+	 <link rel="stylesheet" href="css/gradely.css" />
     <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/style.css"/>
 	
-	<link rel="stylesheet" href="css/trade.css"/>
+	
 	<link rel="stylesheet" href="css/global-min.css" type="text/css">
     <link rel="stylesheet" href="css/base.css" type="text/css" />
 	
@@ -19,12 +19,12 @@
     <header class="mt-header">
     <article>
         <div class="mt-logo">
-            <a title="换享网" href=""  ></a>
+            <a title="换享网" href="" class="mt-tblogo" ></a>
         </div>
         <nav class="mt-nav">
             <ul id="J_MtMainNav">
                 <li>
-                    <a href="project.html" >首页</a>
+                    <a href="" >首页</a>
                     <i class="mt-arrow"></i>
                 </li>
                 <li class="selected">
@@ -73,195 +73,183 @@
                 <div class="mt-ml-c1" >
 					<!--薄膜，垫片-->
 					<div class="mt-ml-shim"></div>
-					<div id="wunai">
-						<div id="main-content">
+					<div>
+						<div class="rate-list" id="rateList" data-spm="a1z0b.3.5920813">
+            <ul class="rate-tab rate-tab-orange clearfix">
+        	    <li class="selected"><a href="webimformation.html"><span>系统消息</span></a></li>
+    			    
+       <li><a href="webimformation serve.html"><span>服务消息</span></a></li>
+    				
+    	</ul>
+
+        				<table class="show-rate-table">
+    <colgroup>
+        <col width="50">
+        <col width="150">
+        <col width="150">
+        <col width="150">
+    </colgroup>
+    <thead>
+    	<tr>
+            <th class="rate">序号</th> 
+			<th class="ratee">标题</th>
+			<th class="things">接受日期</th>
+            <th class="operate">操作</th>
+        </tr>
+    </thead> 
+	<tbody>
+	<tr class="feedback-226228408971" data-id="226228408971">
+    <td class="rate">
+	1
+    </td>
+				
+                <td class="ratee">
+    				          系统维护				        				
+    					        			    			</td>
+                <td class="things">
+    				2014-10-28 12:39:30
+        	            								
+                </td>
+                <td class="operate">
+								查看│删除
+					   					    			</td>
+            </tr>
+			<tr class="feedback-226228408971" data-id="226228408971">
+    <td class="rate">
+	2
+    </td>
+				
+                <td class="ratee">
+    				         分类即将删除				        				
+    					        			    			</td>
+                <td class="things">
+    				2014-11-18 2:29:30
+        	            								
+                </td>
+                <td class="operate">
+								查看│删除
+					   					    			</td>
+            </tr>
+    	    		
+           
+    	    </tbody>
+</table>
+
+<div class="table-foot">
+    <div class="tb-page-bottom" id="pagination" data-currentnum="1" data-maxnum="1" data-jumpurl="http://rate.taobao.com/user-myrate-UvFc4OFQ0vmxbvQTT--timeLine|--buyerOrSeller|1--goodNeutralOrBad|--detailed|--receivedOrPosted|0--showContent|--currentPage|{pageNum}--ismore|0--append|--maxPage|1.htm#rateList">  <span class="page-start">上一页</span>   <span class="page-cur">1</span>   <span class="page-end">下一页</span> </div>
+</div>
+
+					</div>
+						
+						
+					<link rel="stylesheet" href="http://assets.taobaocdn.com/apps/serviceone/page/global.css?t=20121010.css" />
+<link rel="stylesheet" href="http://assets.taobaocdn.com/apps/serviceone/page/rights-list/index.css?t=20120520.css" />
+<div class="rights-list-wrap">
+	<div class="tablebase">
 		
-	<div class="bought-list">
-		<form action="" method="post" id="J_BoughtListForm" autocomplete="off">
-			<input id="J_Token" type="hidden" name="_tb_token_" value="fe5fff387e47e">
-			<input id="J_MainBizIds" type="hidden" name="main_biz_order_ids" value="830615123442932">
-
-
-			<table class="bought-table" id="J_BoughtTable" data-spm="9">
+		<form id="rulesListQueryForm" name="rulesListQueryForm" method="post">
+        	<input name='_tb_token_' type='hidden' value='0ai4YXYxFpn'>
+			<input type="hidden" name="currentPage" id="currentPage" value="1"/>
+			<input type="hidden" name="type" id="type"/>
+    		
+		<div class="table-bd list-wrap">
+            <table width="100%">
 				<colgroup>
-					<col class="number">
-					<col class="thing">
-					<col class="name">
-					<col class="time">
-					<col class="state">
-					
+					<col class="id" />
+					<col class="case-id" />
+					<col class="ww" />
+					<col class="reason" />
+					<col class="status" />
+					<col class="time" />
+					<col class="ctrl" />
 				</colgroup>
-				<tr><font size=5><b>上传记录</b></font></tr>
-				<thead>
-					<tr class="col-name">
-						<th class="number">序号</th>
-						<th class="thing">上传物品</th>
-						<th class="name">物品名称</th>
-						<th class="time">上传时间</th>
-						<th class="operate">操作</th>
+                
+				
+                <tbody>
+                						<tbody class="act">
+    					<tr class="last-row">
+    						<td colspan="7">
+    							<script language="javascript">
+	
+function changePage(currentPage){  
+     var f = document.getElementById('rulesListQueryForm');
+     f.currentPage.value=currentPage;
+     f.submit();
+	 return false;
+}
+function gotoPage(){
+	var f = document.getElementById('rulesListQueryForm');
+    var inputpage=f.pageNO.value;
+	if(validate(inputpage)){
+	f.currentPage.value=inputpage;
+	 f.submit();
+	 return false;
+	 }
+	else{
+	 return false;
+	 }
+} 
+function trim(str) {
+	return str.replace(/(^\s*)|(\s*$)/g,"");
+}
+function IsInteger(varString){
+	return /^[0-9]+$/i.test(varString);
+}
+var current_page = "0";
+var max_page = "0";
+function validate(page){
+	page = trim(page);
+	if(page == null || page == ""){
+		alert("页号无效！");
+		return false;
+	}
+	if(!IsInteger(page)){
+		alert("页号必须为正整数！");
+		return false;
+	}
+	page = parseInt(page);
+	if(page == current_page)
+	return false;
+	if(page > max_page){
+		alert("页号超出最大页号！");
+		return false;
+	}
+	if(page < 1){
+		alert("页号超出最小页号！");
+		return false;
+	}
+	return true;
+}
+function setSelectOption(selectId,optionV){
+	var  selObj = document.getElementById(selectId);
+	var oTarget = optionV;
+	for (var i=0; i<selObj.options.length; i++) {
+    if (selObj.options[i].value==oTarget) {
+      selObj.options[i].selected = true;
+    }
+  }
+}
 
-				</thead>
+</script>
+<div class="operations">
+</div>
 
-
-				<tbody data-isarchive="false" data-orderid="830615123442932" data-status="TRADE_FINISHED" class="mainOrder830615123442932  success-order hover hover-finish-order">
-					
-					
-   
-					<tr id="item830615123442932" class="order-bd last     order-last">
-						<td class="number">
-							<input type="checkbox" class="J_Selector selector" id="cb830615123442932" name="biz_order_id"><b>1</b>
-							<div class="desc">
-								<p class="baobei-name">
-								
-								</p>
-								
-							</div>  
-						</td>
-
-						<td class="thing" title="98.39">
-							<i class="special-num"></i>
-							<b><img alt="查看宝贝详情" src="img/hand.jpg"></b>
-						</td>
-   
-						<td class="name" title="韩版气质手提包">
-						<b>韩版气质手提包</b>
-							<i class="name"></i>
-						</td>
- 
-						<td class="time">  
-							<b>2014-10-01</br>15:25:32</b>
-							<input type="hidden" id="pioneerRulesType" value="">
-						</td>
-
-						<td class=operate" rowspan="1">
-								<p><b><a href>查看</a>|<a href>修改</a></br><a href>下架</a>|<a href>删除</a></b></p>
-						</td>
- 
-
-						
-					</tr>
-					
-					
-					<tr id="item830615123442932" class="order-bd last     order-last">
-						<td class="number">
-							<input type="checkbox" class="J_Selector selector" id="cb830615123442932" name="biz_order_id" ><b>2</b>
-							<div class="desc">
-								<p class="baobei-name">
-								
-								</p>
-								
-							</div>  
-						</td>
-
-						<td class="thing" title="98.39">
-							<i class="special-num"></i>
-							<b><img alt="查看宝贝详情" src="img/hand.jpg"></b>
-						</td>
-   
-						<td class="name" title="韩版气质手提包">
-						<b>韩版气质手提包</b>
-							<i class="name"></i>
-						</td>
- 
-						<td class="time">  
-							<b>2014-10-01</br>18:30:06</b>
-							<input type="hidden" id="pioneerRulesType" value="">
-						</td>
-
-						<td class=operate" rowspan="1">
-								<p><b><a href>查看</a>|<a href>修改</a></br><a href>下架</a>|<a href>删除</a></b></p>
-						</td>
- 
-
-						
-					</tr>
-					
-					<tr id="item830615123442932" class="order-bd last     order-last">
-						<td class="number">
-							<input type="checkbox" class="J_Selector selector" id="cb830615123442932" name="biz_order_id" ><b>3</b>
-							<div class="desc">
-								<p class="baobei-name">
-								
-								</p>
-								
-							</div>  
-						</td>
-
-						<td class="thing" title="98.39">
-							<i class="special-num"></i>
-							<b><img alt="查看宝贝详情" src="img/hand.jpg"></b>
-						</td>
-   
-						<td class="name" title="韩版气质手提包">
-						<b>韩版气质手提包</b>
-							<i class="name"></i>
-						</td>
- 
-						<td class="time">  
-							<b>2014-10-01</br>20:08:12</b>
-							<input type="hidden" id="pioneerRulesType" value="">
-						</td>
-
-						<td class=operate" rowspan="1">
-								<p><b><a href>查看</a>|<a href>修改</a></br><a href>下架</a>|<a href>删除</a></b></p>
-						</td>
- 
-
-						
-					</tr>
-				</tbody>      
-     
-	 
-				<tfoot>
-					<tr class="sep-row"><td colspan="5"></td></tr>
-					<tr class="toolbar toolbar-bottom">
-						<td colspan="5">
-							<div class="operates">
-								<label><input type="checkbox" class="J_AllSelector all-selector">全选</label>
-								
-								<a href="javascript:void(0)" class="J_CombinAgentPay J_MakePoint toolbtn" data-url="http://trade.taobao.com/trade/alipay_list_screen.htm?ispayforanother=true" data-confirm-url="/trade/json/list_items_for_batch_pay.htm" data-point-url="http://gm.mmstat.com/listbought.32">下架</a>
-								<a href="javascript:void(0)" class="J_CombinAgentPay J_MakePoint toolbtn" data-url="http://trade.taobao.com/trade/alipay_list_screen.htm?ispayforanother=true" data-confirm-url="/trade/json/list_items_for_batch_pay.htm" data-point-url="http://gm.mmstat.com/listbought.32">删除</a>
-							</div>
-							<div class="paging-box paging-full" id="J_trade_pagenation">
-								<ul class="items">
-									<li class="item prev  prev-disabled ">
-										<a class="num ">
-											<span class="icon"></span>
-										</a>
-									</li>
-									<li class="item active">
-										1
-									</li>
-									<li class="item next  next-disabled ">
-										
-										<a class="num ">
-											<span class="icon"></span>
-										</a>
-									</li>
-								</ul>
-
-
-								<div class="total">
-									共 1 页，
-								</div>
-								<div class="form">
-									<span class="text">到第</span>
-									<input class="input" type="number" value="1" min="1">
-									<span class="text">页</span>
-									<span class="button J_MakePoint" id="J_JumpTo" data-url="http://trade.taobao.com/trade/itemlist/listBoughtItems.htm?action=itemlist/QueryAction&amp;event_submit_do_query=1&amp;prePageNo=1&amp;commentStatus=I_HAS_NOT_COMMENT&amp;auctionStatus=ALL&amp;clickMore=0&amp;tPage=1&amp;isJumpTo=true" data-point-url="http://gm.mmstat.com/listbought.31">确定</span>
-								</div>
-							</div>
-
-						</td>
-					</tr>
-				</tfoot>
-    
-			</table>
+    						</td>
+    					</tr>
+					</tbody>
+				</tbody>
+            </table>
+		</div>
 		</form>
-
-	</div><!--end bought-list-->
-
 	</div>
+</div>
+
+						
+					
+
+
+					
+					
 					</div>
 				</div>
 			</div>
@@ -286,7 +274,7 @@
 									</dd>
 									<dt class="fs14 mt-btn-go-setings" id="MTB_ItemsSetings">我的关注<span class="mt-menu-right-arr"><em></em></span></dt>
 									<dd class="mt-menu-sub unfold fold J_MtSideTree">
-										<a href="attentionthing.html" >关注物品</a>
+										<a href="attentionthing.html">关注物品</a>
 									</dd>
 									<dd class="mt-menu-sub J_MtSideTree fold">
 										<a href=""  >关注用户</a>
@@ -310,7 +298,7 @@
 										<a href="renzheng.html">信息认证</a>
 									</dd>
 									<dd class="mt-menu-sub unfold fold J_MtSideTree">
-										<a href=""  >积分历史</a>
+										<a href="grademx.html">积分历史</a>
 									</dd>
 									<dd class="mt-menu-sub unfold fold J_MtSideTree">
 										<a href=""  >修改收货地址</a>
@@ -322,13 +310,13 @@
 										<a href=""  >留言信息</a>
 									</dd>
 									<dd class="mt-menu-sub unfold fold J_MtSideTree">
-										<a href=""  >站内消息</a>
+										<a href="webimformation.html">站内消息</a>
 									</dd>
 									<dd class="mt-menu-sub unfold fold J_MtSideTree">
-										<a href=""  >交换记录</a>
+										<a href="exchange records.html">交换记录</a>
 									</dd>
 									<dd class="mt-menu-sub unfold fold J_MtSideTree">
-										<a href=""  >投诉</a>
+										<a href="complain.html">投诉</a>
 									</dd>
 							</dl>
 						</div>

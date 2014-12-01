@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="GDK">
-    <title>修改密码</title>
+    <title>关注物品</title>
     <link rel="stylesheet" href="css/reset.css"/>
     <link rel="stylesheet" href="css/font-awesome.min.css"/>
     <link rel="stylesheet" href="css/style.css"/>
@@ -11,22 +11,15 @@
 	<link rel="stylesheet" href="css/global-min.css" type="text/css">
     <link rel="stylesheet" href="css/base.css" type="text/css" />
 	
-	 <link rel="stylesheet" href="css/geren.css"/>
-	 <link rel="stylesheet" href="css/geren3.css"/>
-	
-	 <link rel="stylesheet" href="css/geren5.css"/>
-	 
-	
-	 <!--link rel="stylesheet" href="css/geren8.css"/>(是否全屏)-->
 	<script type="text/javascript" src="js/deps.js"></script>
 </head>
 <body>
 	<!--n-->
     <header class="mt-header">
     <article>
-    <!----    <div class="mt-logo">
-            <a title="换享网" href="" class="mt-tblogo" ></a>
-        </div>     --->
+	<!----	<div class="mt-logo">   
+	    <a title="换享网" href="" class="mt-tblogo" ></a>
+        </div>	--->
         <nav class="mt-nav">
             <ul id="J_MtMainNav">
                 <li>
@@ -89,101 +82,126 @@
 			<input id="J_buddy_require_url" type="hidden" value="http://tbskip.taobao.com/json/show_buddy_biz_order.do">
 			<input id="J_buddy_result_link" type="hidden" value="http://follow.taobao.com/buddy_detail.htm">
 			<input id="J_activity_require_url" type="hidden" value="http://active.taobao.com/json/bought_icon.htm">
-<form name="mainform" action="http://member1.taobao.com/member/fresh/account_profile.htm" method="post">
-				<input name="_tb_token_" type="hidden" value="fN321DWCCnn">
-                
-				<font size=5><b>修改密码</b></font>
-		    	<ul class="elem-form section security-profile trade:addressEditor" id="ah:addressForm">
-		    		
-		    		<li><blockquote><b>*</b> 当前密码：</blockquote><input name="psw_old" id="psw_old" type="password" class="input_text" maxlength="16" />
-			<span id="psw_old_hint" class="tips_info" style="display:none">请输入当前密码</span>
 
+			<table class="bought-table" id="J_BoughtTable" data-spm="9">
+				<colgroup>
+					<col class="thingpic">
+					<col class="thingname">
+					<col class="owner">
+					<col class="operate">
+					<col class="promisemoney">
+
+				</colgroup>
+				<tr><font size=5><b>关注物品</b></font></tr>
+				<thead>
+					<tr class="col-name">
+						<th class="thingpic">物品图片</th>
+						<th class="thingname">物品名称</th>
+						<th class="owner">拥有者</th>
+						<th class="connect">联系方式</th>
+						<th class="operate">操作</th>
+						<th class="promisemoney">保证金</th>
+
+					</tr>
+		
+	
+				
+				</thead>
+
+
+
+				<tr class="sep-row"></tr>
+   
+   
+					<tr id="item830615123442932" class="order-bd last     order-last">
+					
+						<td class="baobei">
+						<span>
+						<input type="checkbox"  >
+						</span>
+							<a target="_blank" hidefocus="true" title="查看宝贝详情" href="" class="pic J_MakePoint" data-point-url="http://gm.mmstat.com/listbought.2.5">
+								<img alt="查看宝贝详情" src="img/hand.jpg">
+								
+							</a>
+						</td>
+						<td class="thingname" rowspan="1">
+								<span class="thingname" title="女款">手提包</span>
+						</td>
+
+ 
+
+						<td class="owner" rowspan="1">
+								<span class="owner" title="女">廖东</span>
+						</td>
+ 
+ 
+						<td class="connectTel" class="connectQQ" rowspan="1">
+								<span class="connectTel" title="手机">13843838438</span>
+								<br> <span class="connectQQ" title="QQ">38383838</span> </br >
+								
+						</td>
+						
+						<td class="agree">
+							<div class="desc">
+								<p class="agree-yes">
+									
+									<a target="_blank" href="" class="J_MakePoint" data-point-url="http://gm.mmstat.com/listbought.2.6">
+										取消关注
+									</a>
+									
+								</p>
+								
+							</div>  
+						</td>
+						<td i class="promisemoney">保障金额<br>$100</br></i>
+						</td>
+					</tr>
+				</tbody>      
+     
+	 
+				<tfoot>
+					<tr class="sep-row"><td colspan="6"></td></tr>
+					<tr class="toolbar toolbar-bottom">
+						<td colspan="6">
+							<div class="operates">
+								<label><input type="checkbox" class="J_AllSelector all-selector">全选</label>
 			
-			<span class="tp_txt"><a id="dnaUserId" href="/cn2/change_psw/pc/pc_change_pwd_way?forget=1" target="_blank">忘记当前密码？</a></span>
-			
+								<a href="javascript:void(0)" class="J_CombinAgentPay J_MakePoint toolbtn" data-url="http://trade.taobao.com/trade/alipay_list_screen.htm?ispayforanother=true" data-confirm-url="/trade/json/list_items_for_batch_pay.htm" data-point-url="http://gm.mmstat.com/listbought.32">全部交换</a>
+							</div>
+							<div class="paging-box paging-full" id="J_trade_pagenation">
+								<ul class="items">
+									<li class="item prev  prev-disabled ">
+										<a class="num ">
+											<span class="icon"></span>
+										</a>
+									</li>
+									<li class="item active">
+										1
+									</li>
+									<li class="item next  next-disabled ">
+										
+										<a class="num ">
+											<span class="icon"></span>
+										</a>
+									</li>
+								</ul>
 
-			</li>
 
-
-			<li class="col"><blockquote><b>*</b> 新密码：</blockquote>
-			<input name="psw" id="psw" type="password" class="input_text" style="ime-mode:disabled;" maxlength="16"  onpaste="return false;"/>
-			
-			<span class="tp_txt">密码由6-16个字符组成，区分大小写(不能是9位以下的纯数字，不能包含空格)</span>
-			<span id="psw_sgh_hint" class="tips_info" style="display:none">请输入新密码</span>
-			<span id="recent_same_psw_hint" class="tips_info" style="display:none">新密码不能与近期用过密码相同</span>
-			<span id="uin" style="display:none">798744468</span>
-			</li>
-
-			<li><blockquote><b>*</b> 确认新密码：</blockquote>
-			<input name="psw_ack" id="psw_ack" type="password" class="input_text" style="ime-mode:disabled;" maxlength="16"  onpaste="return false;"/>
-			<span id="psw_ack_hint" class="tips_info" style="display:none">再次输入新密码</span>
-			</li>
-			
-		    			<input class="pc:divisionCode" id="divisionCode" value="" type="hidden" name="_fm.ed._0.d">
-						<!--
-						<script type="text/javascript" src="http://www.taobao.com/home/js/sys/base.js"></script>
-						<script type="text/javascript" src="http://www.taobao.com/home/js/sys/districtselector.js"></script>
-						<script type="text/javascript" src="http://www.taobao.com/home/js/sys/phonecheck.js"></script>
-						-->
-												<script type="text/javascript" src="http://a.tbcdn.cn/sys/js/districtselector.js"></script>
-                        <script type="text/javascript" src="http://a.tbcdn.cn/sys/util/phonecheck.js?t=20110111.js"></script>
-						<script type="text/javascript">
-							(function() {
-								var Y = YAHOO.util;
-								var provSel = Y.Dom.get('_fm.ed._0.p');
-								var citySel = Y.Dom.get('_fm.ed._0.c');
-								var distSel = Y.Dom.get('_fm.ed._0.re');
-								var codeInput = Y.Dom.get('divisionCode');
-					 			var cv = TB.form.DistrictSelector.attach(provSel, citySel, distSel);
-					 			cv.initSelectedCodes(codeInput.value);
-
-								var validate = function() {
-						        	if (provSel.options.length > 1 && provSel.selectedIndex == 0)
-						        		return false;
-						        	if (citySel.options.length > 1 && citySel.selectedIndex == 0)
-						        		return false;
-						        	if (distSel.options.length > 1 && distSel.selectedIndex == 0)
-						        		return false;
-						        	return true;
-								}
-						    	Y.Event.on(provSel.form, 'submit', function(ev) {
-									if (!validate()) {
-						        		alert('\u8bf7\u9009\u62e9\u6709\u6548\u7684\u7701\u5e02\u533a');
-										Y.Event.stopEvent(ev);
-										return false;
-									}
-									var codes = cv.getSelectedCodes();
-									codeInput.value = codes[2] || codes[1];
-									TB.form.PhoneCheck.easyInit();//电话号码的验证
-									var nletter = Y.Dom.get('_fm.ed._0.nl');
-									if(nletter && nletter.value == 'true'){
-										var isValidPhone = TB.form.PhoneCheck.attachPhoneCheck();
-			            				if (!isValidPhone){
-			            					Y.Event.stopEvent(ev);
-			            					return false;
-										}
-									}else{
-										Y.Dom.get('formatPhone').value = getValidPhone();
-									}
-									return true;
-						    	});
-						    	window['distSelector'] = cv;
-								})();
-						</script>
-		    		</li>
-		    						
-		    		<li class="container-btn">
-		    			<span class="skin-gray">
-		    				<button type="submit" class="short-btn">确定</button>
-		    			</span>
-		    			<span class="skin-gray">
-		    				<button type="button" onclick="javascript:location='http://i.taobao.com/my_taobao.htm';" class="short-btn">取消</button>
-		    			</span>
-		    		</li>
-		    	</ul>
-		    	<input type="hidden" name="action" value="account_mgr">
-				<input type="hidden" name="event_submit_do_edit_user_info2" value="anything">
-			</form>
+								<div class="total">
+									共 1 页，
+								</div>
+								<div class="form">
+									<span class="text">到第</span>
+									<input class="input" type="number" value="1" min="1">
+									<span class="text">页</span>
+									<span class="button J_MakePoint" id="J_JumpTo" data-url="http://trade.taobao.com/trade/itemlist/listBoughtItems.htm?action=itemlist/QueryAction&amp;event_submit_do_query=1&amp;prePageNo=1&amp;commentStatus=I_HAS_NOT_COMMENT&amp;auctionStatus=ALL&amp;clickMore=0&amp;tPage=1&amp;isJumpTo=true" data-point-url="http://gm.mmstat.com/listbought.31">确定</span>
+								</div>
+							</div>
+						</td>
+					</tr>
+				</tfoot>
+    
+			</table>
 		</form>
 
 	</div><!--end bought-list-->
@@ -213,7 +231,7 @@
 									</dd>
 									<dt class="fs14 mt-btn-go-setings" id="MTB_ItemsSetings">我的关注<span class="mt-menu-right-arr"><em></em></span></dt>
 									<dd class="mt-menu-sub unfold fold J_MtSideTree">
-										<a href="attentionthing.html" >关注物品</a>
+										<a href="attentionthing.html">关注物品</a>
 									</dd>
 									<dd class="mt-menu-sub J_MtSideTree fold">
 										<a href=""  >关注用户</a>
@@ -237,7 +255,7 @@
 										<a href="renzheng.html">信息认证</a>
 									</dd>
 									<dd class="mt-menu-sub unfold fold J_MtSideTree">
-										<a href=""  >积分历史</a>
+										<a href="grademx.html">积分历史</a>
 									</dd>
 									<dd class="mt-menu-sub unfold fold J_MtSideTree">
 										<a href=""  >修改收货地址</a>
@@ -249,13 +267,13 @@
 										<a href=""  >留言信息</a>
 									</dd>
 									<dd class="mt-menu-sub unfold fold J_MtSideTree">
-										<a href=""  >站内消息</a>
+										<a href="webimformation.html">站内消息</a>
 									</dd>
 									<dd class="mt-menu-sub unfold fold J_MtSideTree">
-										<a href=""  >交换记录</a>
+										<a href="exchange records.html">交换记录</a>
 									</dd>
 									<dd class="mt-menu-sub unfold fold J_MtSideTree">
-										<a href=""  >投诉</a>
+										<a href="complain.html">投诉</a>
 									</dd>
 							</dl>
 						</div>
